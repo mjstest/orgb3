@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<script>window.isIos = /ip[honead]+(?:.*os\s([\w]+)\slike\smac|;\sopera)/i.test(window.navigator.userAgent)</script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron:900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=vietnamese" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cairo:400,700&amp;subset=arabic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+</head>
+<body>
+
+	<noscript><style type="text/css"></style></noscript>
+
+	<div class="wrapper">
+		<div class="canvas-container fs ns"></div>
+		<div class="gui hidden"></div>
+		<div class="scroll-down btn">
+			<svg viewBox="0 0 128 128">
+				<path d="M127,1V127H1V1H127m1-1H0V128H128V0Z"/>
+				<polygon points="64 80.4 87.59 51.67 40.41 51.67 64 80.4"/>
+			</svg>
+		</div>
+		<div class="load-screen fs ns np">
+
+			<svg class="load-bar centered" viewBox="0 0 100 100">
+				<path class="fill" d="M 5 5 L 95 5 L 5 95 L 95 95 Z"/>
+			</svg>
+
+			<div class="scroll-icon centered">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+				<rect x="29.88" y="5.88" width="68.25" height="116.25" rx="10.19" ry="10.19" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:1px"/>
+				<circle data-svg-origin="64 25.78" cx="64" cy="25.78" r="10.6" style="fill:#fff"/>
+			</svg>
+			</div>
+		</div>
+
+		<div class="logo ns np hidden">
+			<svg viewBox="0 0 152 40.5">
+				<g class="fill">
+					<path d="M9.28,29.84,2.49,22V2.34H9.28L30.11,27.51V2.34h6.07V36.68h-7.4L8.94,12.51S9.28,25,9.28,29.84Z"/>
+					<path d="M73.49,2.11H38.73V4L52.41,19.22,38.73,35.3v1.38H73.49V34.8L60.39,19.4,73.49,4Zm-12,28.4H51.69l4.88-5.83ZM56.57,14.13,51.69,8.29h9.75Z"/>
+					<path d="M96.36,23.68v-6.5h14V31.43c0,4.25-4,5.18-5.19,5.18s-19.18.07-22.56.07S76,32.55,76,28.93V10.55c0-4.25,2.75-8.44,7.12-8.44h21.25a6.34,6.34,0,0,1,6,5.57V11.8h-6.75v-3H82.49V30.55h21.62V23.76Z"/>
+					<path d="M121,36.68h-6.79V2.34H121l20.83,25.17V10.68l6.07,7.25V36.68h-7.4L120.63,12.51S121,31.84,121,36.68Z"/>
+				</g>
+			</svg>
+		</div>
+
+		<div class="player-info hidden ns">
+			<p class="first-name np ns"></p>
+			<p class="last-name np ns"></p>
+			<div class="view-btn btn ns">READ MORE</div>
+		</div>
+
+		<div class="player-rank hidden np ns"><p>50</p></div>
+
+		<div class="zone-indicator hidden">
+			<svg viewBox="0 0 128 640">
+				<g class="shape-icon btn">
+					<rect id="nextgen" width="128" height="128" style="fill:transparent"/>
+					<polygon class="np ns" points="20.7 108.88 107.3 108.88 20.7 19.12 107.3 19.12 20.7 108.88" style="fill:none;stroke:#fff;stroke-miterlimit:10"/>
+				</g>
+				<g class="shape-icon btn">
+					<rect id="triangle" y="128" width="128" height="128" style="fill:transparent"/>
+					<polygon class="np ns" points="64 154.5 20.7 229.5 107.3 229.5 64 154.5" style="fill:none;stroke:#fff;stroke-miterlimit:10"/>
+				</g>
+				<g class="shape-icon btn">
+					<rect id="square" y="256" width="128" height="128" style="fill:transparent"/>
+					<rect class="np ns" x="23.09" y="279.09" width="81.82" height="81.82" style="fill:none;stroke:#fff;stroke-miterlimit:10"/>
+				</g>
+				<g class="shape-icon btn">
+					<rect id="hexagon" y="384" width="128" height="128" style="fill:transparent"/>
+					<polygon class="np ns" points="85.65 410.5 42.35 410.5 20.7 448 42.35 485.5 85.65 485.5 107.3 448 85.65 410.5" style="fill:none;stroke:#fff;stroke-miterlimit:10"/>
+				</g>
+				<g class="shape-icon btn active">
+					<rect id="circle" y="512" width="128" height="128" style="fill:transparent"/>
+					<circle class="np ns" cx="64" cy="576" r="43" style="fill:none;stroke:#fff;stroke-miterlimit:10"/>
+				</g>
+			</svg>
+			<div class="zone-bar">
+				<div class="zone-pointer"></div>
+			</div>
+		</div>
+
+
+		
+		
+	</div>
+
+	
+	<script src="js/app.js"></script>
+
+</body>
+</html>
