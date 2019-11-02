@@ -1,0 +1,71 @@
+[
+{
+    "domain": ".ahrefs.com",
+    "expirationDate": 1603779338,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "_iub_cs-794932",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "%7B%22consent%22%3Atrue%2C%22timestamp%22%3A%222019-10-28T06%3A05%3A16.298Z%22%2C%22version%22%3A%221.2.4%22%2C%22id%22%3A794932%7D",
+    "id": 1
+},
+{
+    "domain": ".ahrefs.com",
+    "expirationDate": 1575269896,
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "BSSESSID",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "LmlTw4TqbkFVo%2BFgsBfFwEaUoSRYzP4QmmgbDMcA",
+    "id": 2
+},
+{
+    "domain": ".ahrefs.com",
+    "expirationDate": 1595862759,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "intercom-id-dic5omcp",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "6f490d01-b88e-4308-9462-aa5b5425045f",
+    "id": 3
+},
+{
+    "domain": ".ahrefs.com",
+    "expirationDate": 1573277173,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "intercom-session-dic5omcp",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "NjFwSjJJaHFYMXMrTzJMOTBxbUdVWGQwZkJLcGVoT2p0SkY2aDM2VmFjMzFoNFRac2NlWTI4dU9vTXB1L3VnWi0tOGxsTFVLeFcvYzJNZ1JqMEc2QS9KZz09--81537ba01e3a3310920daf52036eca3576f605dd",
+    "id": 4
+},
+{
+    "domain": ".ahrefs.com",
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "XSRF-TOKEN",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": true,
+    "session": true,
+    "storeId": "0",
+    "value": "eyJpdiI6IldJakpmOXdZSEV2TnlqYWZUMzlCbGc9PSIsInZhbHVlIjoiMXEyWFdqSDEzYkZIajBJd2ZuQjBsSStqTGU4OHNSVWcxQkRCelJtaFFpWmpXbDhVUjFDRWdcL1Buc3Z3azF6VVhjdk9WT1FnK0x5QTYwMm1mMStrMDFRPT0iLCJtYWMiOiI1ODc0NmRiNzY2ZDdlZDM4OTI0NWE3MmMxZTY2MzA2NzU2NWVjMmJhOTM0OGQxMmFiMDc4NDA0ODFlZjQ2MTg1In0%3D",
+    "id": 5
+}
+]
